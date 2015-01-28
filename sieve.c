@@ -2,7 +2,7 @@
 
 #define MAX 1000
 
-void print(int notprimes[])
+void printPrimes(int notprimes[])
 {
    int i;
 
@@ -33,7 +33,7 @@ int main(void)
 
             printf("i=%d,j=%d\n", i, j);
             notprimes[j*i] = 1;
-            print(notprimes);
+            printPrimes(notprimes);
          }
 
          if (i % j == 0)
