@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 10
+#define MAX 10000
 
 void printPrimes(int notprimes[])
 {
